@@ -10,9 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Alcool ou Gasolina',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
-      ),
+      theme: ThemeData(primarySwatch: Colors.deepPurple),
       home: HomePage(),
     );
   }
